@@ -28,7 +28,7 @@ email.setAuthenticator(new DefaultAuthenticator("test@test.com", "password"))
 email.setHostName("example.com");
 email.setSmtpPort(587)
 email.setTLS(true)
-email.addTo("receiver@mail.com", "sender");
+email.addTo("receiver@mail.com", "receiver");
 email.setFrom("test@sender.com", "Me");
 email.setSubject("Jenkins Log of the day");
 email.setMsg("Here's your daily log, Have a nice day");
